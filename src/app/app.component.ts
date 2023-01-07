@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'connect4';
+    constructor(){
+
+    }
+    ctd: boolean = false;
+    conntected(){
+        this.ctd = true;
+    }
+    
 }
